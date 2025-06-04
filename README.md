@@ -45,7 +45,7 @@ The dataset includes the following columns:
 7. Average number of seasons for TV shows  
 8. Number of titles added per year  
 9. Distribution of ratings (age classification)  
-10. Top actors with the most roles  
+10. Release years with the most titles 
 11. Number of titles by country and type  
 12. Most recent releases per genre  
 13. Percentage of Movies vs TV Shows per year  
@@ -55,4 +55,4 @@ The dataset includes the following columns:
 17. Common genre combinations  
 18. Titles with multiple countries of production  
 19. Trends in additions to Netflix per month  
-20. Top 5 genres per year  
+20. Number of titles without director or cast information
