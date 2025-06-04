@@ -1,39 +1,31 @@
 # Netflix SQL Analysis
-
-This project analyzes a Netflix dataset using SQL queries to gain insights into titles available on the platform.
+This project contains a dataset of Netflix titles and a collection of SQL queries that provide various insights into the data.
 - [Netflix Movies and TV Shows](https://www.kaggle.com/datasets/shivamb/netflix-shows)
-
 ---
-
 ## Project Contents
-
-- `netflix_titles.csv` — the original dataset containing Netflix titles  
-- `create_table.sql` — script to create the `netflix_titles` table in MySQL  
-- `analysis_queries.sql` — 20 SQL queries with various analyses on the data
-
+- `netflix_titles.csv` — the original dataset with Netflix titles.  
+- `create_table.sql` — script to create the `netflix_titles` table in MySQL.  
+- `analysis_queries.sql` — a set of 20 SQL queries performing different analyses on the data.
 ---
-
 ## Dataset Overview
-
 The dataset includes the following columns:
 
-| Column       | Description                                   |
-|--------------|-----------------------------------------------|
-| show_id      | Unique ID of the title                         |
-| type         | Movie or TV Show                               |
-| title        | Title name                                    |
-| director     | Director                                      |
-| cast         | Main cast                                     |
-| country      | Country of production                          |
-| date_added   | Date added to Netflix                          |
-| release_year | Year of release                               |
-| rating       | Age rating                                    |
-| duration     | Duration (minutes or number of seasons)       |
-| listed_in    | Genres                                        |
-| description  | Short description                             |
+| Column       | Description                         |
+|--------------|-----------------------------------|
+| show_id      | Unique ID of the title            |
+| type         | Movie or TV Show                  |
+| title        | Title name                       |
+| director     | Director                        |
+| cast         | Main cast                      |
+| country      | Country of production           |
+| date_added   | Date added to Netflix            |
+| release_year | Year of release                 |
+| rating       | Age rating                     |
+| duration     | Duration (minutes or number of seasons) |
+| listed_in    | Genres                         |
+| description  | Short description               |
 
 ---
-
 ## Analyses Included
 
 1. Number of titles by type (Movie vs TV Show)  
@@ -45,7 +37,7 @@ The dataset includes the following columns:
 7. Average number of seasons for TV shows  
 8. Number of titles added per year  
 9. Distribution of ratings (age classification)  
-10. Release years with the most titles 
+10. Release years with the most titles  
 11. Number of titles by country and type  
 12. Most recent releases per genre  
 13. Percentage of Movies vs TV Shows per year  
@@ -55,4 +47,4 @@ The dataset includes the following columns:
 17. Common genre combinations  
 18. Titles with multiple countries of production  
 19. Trends in additions to Netflix per month  
-20. Number of titles without director or cast information
+20. Number of titles without director or cast information  
